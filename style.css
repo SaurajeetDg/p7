@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.col1{
+    flex-basis: 40%;
+    padding: 80px 60px;
+    justify-content: center;
+    align-items: center;
+}
+.col2{
+    flex-basis:60%;
+    background-image: url(bg-img.png);
+    /* background-position: center; */
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.col1 h5{
+    color: grey;
+    margin: 10px 0;
+    /* font-family: fantasy; */
+}
+.col1 .row input{
+    background: black;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 90%;
+    color: white;
+}
+.col1 .row{
+    width: 100%;
+    /* position: relative; */
+    margin: 10px 0;
+}
+.col1 .row label{
+    /* position: absolute; */
+    color: gray;
+    font-size: 15px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.row12 span{
+    font-size: 13px;
+    color: gray;
+    padding-left: 5px;
+}
+.row1 .row12 input{
+    background-color: black; 
+    color: gray;
+}
+.row12 p{
+    color: blanchedalmond;
+    font-size: 13px;
+}
+.row12{
+    padding: 10px 0;
+}
+.btn{
+    color: blanchedalmond;
+    background-color: rgb(72, 72, 72);
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn p{
+    padding-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.signup{
+    margin: 25px 0;
+}
+.signup p{
+    font-size: 15px;
+    color: gray;
+}
+.endline p{
+    font-size: 13px;
+    color: gray;
+}
+.endline p span{
+    color: blanchedalmond;
+}
+/* #check{
+    background-color: black;
+} */
+.logo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.signup{
+    display: flex;
+}
+.logop{
+    margin-top: 5px;
+}
